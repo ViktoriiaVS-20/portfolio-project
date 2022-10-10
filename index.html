@@ -22,7 +22,14 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container">
-        <a class="navbar-brand" href="/">LOGO</a>
+        <a class="navbar-brand" href="/">
+          <img
+            src="/image/logo-black-white.png"
+            alt="logo"
+            style="width: 100px"
+            id="logo"
+          />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,7 +46,7 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-link active px-5" aria-current="page" href="#about-me"
+            <a class="nav-link px-5" aria-current="page" href="#about-me"
               >About me</a
             >
             <a class="nav-link px-5" href="#companies">Companies</a>
@@ -52,110 +59,122 @@
     </nav>
     <div class="header-div d-flex flex-row justify-content-center">
       <div>
-        <h3>Hello, I am</h3>
+        <h3 class="text-hello">Hello, I am</h3>
       </div>
-      <div>
+      <div class="d-flex align-items-start flex-column mb-3">
         <h1>
           Viktoriia <br />
           Vdovina
         </h1>
-        <h2>
-          <ul class="list">
-            <li>Front-end Developer</li>
-            <li>QA Engineer</li>
-            <li>Creater</li>
-          </ul>
-        </h2>
-        <div
-          class="tn-atom"
-          field="tn_text_1498549730528"
-          style="line-height: 23px"
-        >
-          ↓
-        </div>
+        <h2>Front-end Developer</h2>
+        <h2>QA Engineer</h2>
+        <h2>Creater</h2>
+        <p class="mt-auto pb-6">↓</p>
       </div>
       <div>
-        <img src="/image" alt="Viktoriia Vdovina" />
+        <img
+          src="/image/my-photo.png"
+          alt="Viktoriia Vdovina"
+          class="main-photo"
+        />
       </div>
-      <div><h3 class="ukrainian">Ukrainian based in the USA</h3></div>
+      <div>
+        <h3 class="ukrainian">
+          Ukrainian based <br />
+          in the USA
+        </h3>
+      </div>
     </div>
 
     <div class="container my-work">
+      <h2 class="my-work-h2">My Work</h2>
+      <h4 class="addition">early work</h4>
       <div class="row">
-        <h2 class="my-work-h2">My Work</h2>
-        <div class="col-4 item-workes">
-          <img src="/image/photo_2022-08-19_11-59-27.jpg" alt="" />
-          <h3>Name Project</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
-          <a href="">Launch project</a>
+        <div class="col item-workes">
+          <img src="/image/yogurt.png" alt="" />
+          <div class="item-col">
+            <p class="date">September 20</p>
+            <h3>Name Project</h3>
+            <p class="short-text-project">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="" class="button-launch">Launch project</a>
+          </div>
         </div>
-        <div class="col-4 item-workes">
-          <img src="/image/photo_2022-08-19_11-59-27.jpg" alt="" />
-          <h3>Name Project</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
-          <a href="">Launch project</a>
+        <div class="col item-workes">
+          <img src="/image/weather.png" alt="" />
+          <div class="item-col">
+            <p class="date">September 20</p>
+            <h3>Name Project</h3>
+            <p class="short-text-project">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="" class="button-launch">Launch project</a>
+          </div>
         </div>
-        <div class="col-4 item-workes">
-          <img src="/image/photo_2022-08-19_11-59-27.jpg" alt="" />
-          <h3>Name Project</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
-          <a href="">Launch project</a>
+        <div class="col item-workes">
+          <img src="/image/yoga.png" alt="" />
+          <div class="item-col">
+            <p class="date">September 20</p>
+            <h3>Name Project</h3>
+            <p class="short-text-project">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="" class="button-launch">Launch project</a>
+          </div>
         </div>
-        <div><a href="/work.html" class="workes-button">All my workes</a></div>
+        <div class="button-work-block">
+          <a href="/work.html" class="workes-button">All my workes</a>
+        </div>
       </div>
     </div>
 
     <div class="about-me-block" id="about-me">
-      <div class="row">
-        <h2 class="text-center">About me</h2>
-        <h4 class="text-center">short facts</h4>
-        <div class="col-4">
-          <div class="row">
-            <span class="number">#1</span>
+      <h2>About me</h2>
+      <h4>short facts</h4>
+      <div class="row block-facts">
+        <div class="col-4 d-flex">
+          <span class="number">#1</span>
+          <div class="ms-4 mx-5">
             <h3>QA Engineer</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an
+            </p>
           </div>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an
-          </p>
         </div>
-        <div class="col-4">
-          <div class="row">
-            <span class="number">#2</span>
+        <div class="col-4 d-flex">
+          <span class="number">#2</span>
+          <div class="ms-4 mx-5">
             <h3>QA Engineer</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an
+            </p>
           </div>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an
-          </p>
         </div>
-        <div class="col-4">
-          <div class="row">
-            <span class="number">#3</span>
+        <div class="col-4 d-flex">
+          <span class="number">#3</span>
+          <div class="ms-4 mx-5">
             <h3>QA Engineer</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an
+            </p>
           </div>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an
-          </p>
         </div>
       </div>
     </div>
+
     <div class="companies-block" id="companies">
-      <h2 class="text-center" id="companies">Companies</h2>
-      <h4 class="text-center">I have worked with</h4>
+      <h2 id="companies">Companies</h2>
+      <h4>I have worked with</h4>
       <div class="row">
         <div class="col-3">1</div>
         <div class="col-3">2</div>
@@ -189,5 +208,6 @@
         >vdovina.viskas@gmail.com</a
       >
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

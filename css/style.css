@@ -1,13 +1,12 @@
 body {
   font-family: "Roboto", Arial, sans-serif;
 }
-.header-div,
 .my-work,
 .about-me-block,
 .companies-block,
 footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .nav-pills .nav-link.active {
   background-color: black;
@@ -18,107 +17,193 @@ footer {
 .navbar-nav {
   --bs-nav-link-color: white;
 }
+
+/* HEADER */
 .header-div {
   background-color: black;
   color: white;
+  padding-top: 80px;
 }
 .header-div h1 {
   font-size: 60px;
   line-height: 1;
   font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .header-div h2 {
   color: #ffffff;
   font-size: 16px;
   line-height: 1.45;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 .list {
   list-style-type: none;
 }
+.main-photo {
+  width: 550px;
+}
 .header-div h3 {
   color: #424242;
-  font-size: 20px;
   line-height: 1.55;
   font-weight: 400;
+  margin: 78px 30px 0 0;
+}
+.text-hello {
+  font-size: 20px;
 }
 .ukrainian {
   font-size: 16px;
 }
+
+/* BLOCK "MY WORK" */
 .my-work-h2 {
   font-size: 62px;
   text-align: center;
   font-weight: 700;
 }
+.addition {
+  text-align: center;
+  line-height: 14px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  letter-spacing: 2.5px;
+}
 .item-workes {
-  background-color: rgb(216, 213, 213);
-  padding: 0px 10px 20px;
+  background-color: rgb(180 180 180 / 16%);
+  padding: 0px;
   margin: 10px;
 }
 .item-workes img {
   max-width: 100%;
   height: auto;
 }
-.item-workes p {
-  font-size: 16px;
-  line-height: 1.6;
+.item-col {
+  padding: 30px;
+}
+.date {
+  color: #ff8562;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2.5px;
 }
 .item-workes h3 {
   font-size: 24px;
   font-weight: 700;
 }
+.short-text-project {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 40px;
+}
 .item-workes a {
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 5px;
   color: black;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 30px;
+}
+.item-workes a:hover {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+.button-launch {
+  font-weight: 600;
+  font-size: 14px;
+}
+.button-work-block {
+  padding-top: 90px;
+  margin: 0;
+  text-align: center;
 }
 .workes-button {
   text-decoration: none;
-  border: 2px solid black;
   background-color: black;
   color: white;
-  text-align: center;
-  padding: 10px 20px;
+  padding: 18px 90px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.workes-button:hover {
+  color: white;
+}
+
+/* Block "About me" */
+.about-me-block {
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .about-me-block h2 {
   color: #ffffff;
   font-size: 62px;
-  line-height: 1.55;
   font-weight: 700;
+  text-align: center;
 }
 .about-me-block h4 {
   color: #545454;
   font-size: 22px;
-  font-family: "Roboto", Arial, sans-serif;
-  line-height: 1.55;
   font-weight: 400;
+  letter-spacing: 2.5px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.block-facts {
+  padding: 80px;
 }
 .about-me-block h3 {
   color: #ffffff;
   font-size: 40px;
-  line-height: 1.25;
   font-weight: 700;
+  margin: 20px 0;
 }
 .number {
-  color: #ffffff;
+  color: #4f4f4f;
+  font-size: 60px;
+  font-weight: 600;
 }
 .about-me-block p {
   color: #8a8a8a;
   font-size: 16px;
-  line-height: 1.45;
   font-weight: 300;
+  margin-top: 40px;
 }
 #about-me {
   background-color: black;
   margin: 0;
 }
+
+/* Block "Companies" */
+.companies-block {
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: black;
+}
+.companies-block h2 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.companies-block h4 {
+  color: #545454;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 footer {
   background-color: black;
 }
 .footer-h2 {
   color: white;
+  font-size: 48px;
+  font-weight: 700;
   padding-top: 20px;
   padding-bottom: 20px;
 }
