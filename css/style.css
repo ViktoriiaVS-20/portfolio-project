@@ -71,12 +71,12 @@ footer {
   margin-bottom: 50px;
   letter-spacing: 2.5px;
 }
-.item-workes {
+.item-works {
   background-color: rgb(180 180 180 / 16%);
   padding: 0px;
   margin: 10px;
 }
-.item-workes img {
+.item-works img {
   max-width: 100%;
   height: auto;
 }
@@ -89,7 +89,7 @@ footer {
   font-size: 12px;
   letter-spacing: 2.5px;
 }
-.item-workes h3 {
+.item-works h3 {
   font-size: 24px;
   font-weight: 700;
 }
@@ -98,14 +98,14 @@ footer {
   line-height: 1.6;
   padding-bottom: 40px;
 }
-.item-workes a {
+.item-works a {
   border: 3px solid black;
   border-radius: 5px;
   color: black;
   text-decoration: none;
   padding: 10px 30px;
 }
-.item-workes a:hover {
+.item-works a:hover {
   background-color: black;
   border-radius: 5px;
   color: white;
@@ -120,7 +120,7 @@ footer {
   margin: 0;
   text-align: center;
 }
-.workes-button {
+.works-button {
   text-decoration: none;
   background-color: black;
   color: white;
@@ -128,7 +128,7 @@ footer {
   font-size: 16px;
   font-weight: 700;
 }
-.workes-button:hover {
+.works-button:hover {
   color: white;
 }
 
