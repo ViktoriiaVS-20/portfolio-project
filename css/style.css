@@ -34,13 +34,10 @@ footer {
 }
 .header-div h2 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.45;
   font-weight: 300;
   margin-bottom: 20px;
-}
-.list {
-  list-style-type: none;
 }
 .main-photo {
   width: 550px;
@@ -149,7 +146,7 @@ footer {
 .contact-page-h4,
 .about-me-block h4 {
   color: #545454;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 2.5px;
   margin-bottom: 40px;
@@ -276,4 +273,15 @@ footer {
 .project-link:hover {
   color: black;
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .header-div {
+  }
+  .main-photo {
+    display: none;
+  }
+  .about-me-block {
+    padding: 0px;
+  }
 }
