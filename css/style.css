@@ -8,6 +8,8 @@ footer {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+/* NAVIGATION */
 .nav-pills .nav-link.active {
   background-color: black;
 }
@@ -25,7 +27,7 @@ footer {
   padding-top: 80px;
 }
 .header-div h1 {
-  font-size: 60px;
+  font-size: 52px;
   line-height: 1;
   font-weight: 700;
   margin-bottom: 50px;
@@ -217,6 +219,7 @@ footer {
   text-decoration: none;
   font-size: 36px;
   color: #8a8a8a !important;
+  margin-left: 5px;
 }
 .fa-linkedin-in {
   font-size: 24px;
@@ -277,9 +280,12 @@ footer {
 
 @media (max-width: 900px) {
   .header-div {
+    padding-left: 50px;
   }
   .main-photo {
     display: none;
+  }
+  .ukrainian {
   }
   .about-me-block {
     padding: 0px;
