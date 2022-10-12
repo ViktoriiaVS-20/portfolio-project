@@ -26,32 +26,36 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container">
-        <a class="navbar-brand" href="/index.html">LOGO</a>
+        <a class="navbar-brand" href="/">
+          <img
+            src="/image/logo-black-white.png"
+            alt="logo"
+            style="width: 100px"
+            id="logo"
+          />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse nav-pills d-flex justify-content-center"
-          id="navbarNavAltMarkup"
+          class="collapse navbar-collapse nav-pills justify-content-center"
+          id="navbarNav"
         >
           <div class="navbar-nav">
-            <a
-              class="nav-link px-5"
-              aria-current="page"
-              href="/index.html#about-me"
+            <a class="nav-link px-5" aria-current="page" href="#about-me"
               >About me</a
             >
-            <a class="nav-link px-5" href="/index.html#companies">Companies</a>
+            <a class="nav-link px-5" href="#companies">Companies</a>
             <a class="nav-link px-5" href="/resume.html">Resume</a>
-            <a class="nav-link active px-5" href="/work.html">My work</a>
+            <a class="nav-link px-5 active" href="/work.html">My work</a>
             <a class="nav-link px-5" href="/contact.html">Contact</a>
           </div>
         </div>
@@ -62,14 +66,14 @@
       <h1 class="work-page-h1 mb-5">My Work</h1>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-6 work-page-div-img">
             <img
               src="/image/yoga.png"
               alt="Yoga project "
-              class="img-fluid rounded d-none d-sm-block"
+              class="img-fluid rounded d-none d-sm-block work-page-img"
             />
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 work-page-text ps-sm-5">
             <h2 class="work-page-h2 mb-3">Yoga app</h2>
             <p class="work-page-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -85,7 +89,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-sm-6">
+          <div class="col-sm-6 work-page-text ps-sm-5">
             <h2 class="mb-3 work-page-h2">Weather app</h2>
             <p class="work-page-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -102,23 +106,23 @@
               ></a>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 work-page-div-img">
             <img
               src="/image/weather.png"
-              class="img-fluid rounded d-none d-sm-block"
+              class="img-fluid rounded d-none d-sm-block work-page-img"
               alt="Weather project"
             />
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-sm-6">
+          <div class="col-sm-6 work-page-div-img">
             <img
               src="/image/yogurt.png"
-              class="img-fluid rounded d-none d-sm-block"
+              class="img-fluid rounded d-none d-sm-block work-page-img"
               alt="Yogurt project"
             />
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 work-page-text ps-sm-5">
             <h2 class="mb-3 work-page-h2">Yogurt app</h2>
             <p class="work-page-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

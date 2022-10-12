@@ -268,14 +268,28 @@ footer {
   padding-bottom: 40px;
 }
 .project-link {
+  border: 3px solid black;
+  border-radius: 5px;
   color: black;
   text-decoration: none;
-  font-size: 18px;
+  padding: 10px 30px;
   font-weight: bold;
 }
 .project-link:hover {
-  color: black;
-  text-decoration: underline;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+.work-page-div-img {
+  display: inline-block;
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+.work-page-img {
+  transition: 1s; /* Время эффекта */
+}
+.work-page-img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
 }
 
 @media (max-width: 900px) {
@@ -289,5 +303,10 @@ footer {
   }
   .about-me-block {
     padding: 0px;
+  }
+
+  /* Work page */
+  .work-page-text {
+    text-align: center;
   }
 }
