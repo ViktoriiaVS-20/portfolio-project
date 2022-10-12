@@ -221,6 +221,9 @@ footer {
   color: #8a8a8a !important;
   margin-left: 5px;
 }
+a i:hover {
+  color: white;
+}
 .fa-linkedin-in {
   font-size: 24px;
   padding: 7px 5px 0;
