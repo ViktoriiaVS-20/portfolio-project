@@ -96,6 +96,9 @@ footer {
 .ukrainian {
   font-size: 16px;
 }
+.fa-arrow-down {
+  color: white;
+}
 
 /* BLOCK "MY WORK" */
 .work-page-h1,
@@ -197,7 +200,7 @@ footer {
   text-align: center;
 }
 .block-facts {
-  padding: 80px;
+  padding: 0px 80px 80px;
 }
 .about-me-block h3 {
   color: #ffffff;
@@ -214,7 +217,8 @@ footer {
   color: #8a8a8a;
   font-size: 16px;
   font-weight: 300;
-  margin-top: 40px;
+  width: 275px;
+  text-align: justify;
 }
 #about-me {
   background-color: black;
@@ -223,8 +227,6 @@ footer {
 
 /* Block "Companies" */
 .companies-block {
-  padding-left: 80px;
-  padding-right: 80px;
   background-color: black;
 }
 .companies-block h2 {
@@ -311,18 +313,13 @@ a i:hover {
   padding-bottom: 40px;
 }
 .project-link {
-  border: 3px solid black;
-  border-radius: 5px;
-  color: black;
+  color: #06c;
   text-decoration: none;
-  padding: 10px 30px;
   font-weight: bold;
 }
 .project-link:hover {
-  background-color: black;
-  border-radius: 5px;
-  color: white;
-  text-decoration: none;
+  color: #06c;
+  text-decoration: underline;
 }
 .work-page-div-img {
   display: inline-block;
@@ -342,10 +339,30 @@ a i:hover {
   .main-photo {
     display: none;
   }
-  .ukrainian {
-  }
   .about-me-block {
     padding: 0px;
+  }
+
+  /* Work block */
+  .about-me-block h2 {
+    padding-top: 60px;
+    font-size: 52px;
+  }
+  .about-me-block h3 {
+    font-size: 30px;
+    padding: 0px;
+  }
+  .number {
+    font-size: 50px;
+    padding: 0;
+  }
+  .contact-page-h4 {
+    margin-bottom: 0px;
+  }
+  .item-works {
+    background-color: rgb(180 180 180 / 16%);
+    padding: 0px;
+    margin: 0px;
   }
 
   /* Work page */
