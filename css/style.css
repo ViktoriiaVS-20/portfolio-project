@@ -41,6 +41,46 @@ footer {
   font-weight: 300;
   margin-bottom: 20px;
 }
+#text-typing {
+  width: 20ch;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid black;
+  animation: 3s steps(20, end) border, 3s steps(20) printed-text;
+}
+.text-typing-next {
+  width: 13ch;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid black;
+  animation: 2s steps(13, end) 3s border, 2s steps(13) 3s printed-text;
+}
+.text-typing-n-n {
+  width: 9ch;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid black;
+  animation: 1.5s step-end infinite 4.7s border, 1.5s steps(9) 5s printed-text;
+}
+@keyframes printed-text {
+  from {
+    width: 0;
+  }
+}
+@keyframes border {
+  0% {
+    border-color: black;
+  }
+  50% {
+    border-color: #ff8562;
+  }
+  100% {
+    border-color: #ff8562;
+  }
+}
 .main-photo {
   width: 550px;
 }
