@@ -1,11 +1,12 @@
 body {
   font-family: "Roboto", Arial, sans-serif;
 }
+.main-block-resume-page,
 .my-work,
 .about-me-block,
 .companies-block,
 footer {
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 120px;
 }
 
@@ -101,6 +102,7 @@ footer {
 }
 
 /* BLOCK "MY WORK" */
+.resume-page-h1,
 .work-page-h1,
 .my-work-h2 {
   font-size: 58px;
@@ -123,6 +125,13 @@ footer {
 .item-works img {
   max-width: 100%;
   height: auto;
+}
+.grayscale {
+  filter: grayscale(1);
+  transition: 1s;
+}
+.grayscale:hover {
+  filter: grayscale(0);
 }
 .item-col {
   padding: 30px;
@@ -421,4 +430,68 @@ a i:hover {
   justify-content: center;
   align-items: center;
   font-size: 100px;
+}
+
+/* RESUME PAGE */
+.main-block-resume-page {
+  background-color: grey;
+}
+.course-list__section-inner {
+  padding: 20px;
+  font-size: 13px;
+}
+.course-list__section h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+.center {
+  margin: 0 auto;
+  display: block;
+  font-family: monospace;
+  font-size: 11px;
+}
+.img-icons {
+  width: 100px;
+}
+.rotating {
+  -webkit-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cert {
+  width: 100%;
+  height: auto;
+}
+.certeficate {
+  margin: 0 auto;
+  display: block;
+  font-family: monospace;
+  font-size: 18px;
+}
+.resume-btn {
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  width: 250px;
+}
+.resume-btn:hover {
+  background-color: black;
+  border-radius: 5px;
+  color: #ff8562;
+  text-decoration: none;
+}
+.resume-btn-div {
+  margin-bottom: 80px;
 }
