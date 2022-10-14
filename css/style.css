@@ -393,6 +393,15 @@ a i:hover {
   .contact-page .fa-brands {
     color: #ff8562;
   }
+
+  /* RESUME PAGE */
+  .resume-page-h1 {
+    font-size: 43px;
+  }
+  .main-block-resume-page {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
 }
 
 /* image work page */
