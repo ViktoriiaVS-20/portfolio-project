@@ -221,6 +221,45 @@ footer {
   color: #4f4f4f;
   font-size: 60px;
   font-weight: 600;
+  animation: myAnim 4s ease 4s infinite alternate forwards;
+}
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(-45px);
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(-24px);
+  }
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(-12px);
+  }
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(-6px);
+  }
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(-4px);
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 .about-me-block p {
   color: #8a8a8a;
@@ -236,10 +275,9 @@ footer {
 
 /* Block "Companies" */
 .companies-block {
-  background-color: black;
 }
 .companies-block h2 {
-  color: #ffffff;
+  color: black;
   font-size: 48px;
   font-weight: 700;
   text-align: center;
@@ -252,7 +290,16 @@ footer {
   text-align: center;
   margin-bottom: 60px;
 }
-
+.imag-companies img {
+  width: 150px;
+  height: auto;
+}
+.scales {
+  transition: 1s; /* Время эффекта */
+}
+.scales:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
 footer {
   background-color: black;
 }
@@ -355,6 +402,11 @@ a i:hover {
   .about-me-block {
     padding: 0px;
   }
+  .imag-companies img {
+    width: 80px;
+    height: auto;
+    padding-bottom: 10px;
+  }
 
   /* Work block */
   .about-me-block h2 {
@@ -362,7 +414,7 @@ a i:hover {
     font-size: 52px;
   }
   .about-me-block h3 {
-    font-size: 30px;
+    font-size: 28px;
     padding: 0px;
   }
   .number {
@@ -443,7 +495,12 @@ a i:hover {
 
 /* RESUME PAGE */
 .main-block-resume-page {
-  background-color: grey;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.6001751042213761) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 .course-list__section-inner {
   padding: 20px;
