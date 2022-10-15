@@ -68,7 +68,7 @@
     <div class="work-page">
       <h1 class="work-page-h1 mb-5">My Work</h1>
       <div class="container">
-        <div class="row">
+        <div class="row block-project">
           <div class="col-sm-6 work-page-div-img">
             <div class="slides">
               <img
@@ -95,6 +95,7 @@
           </div>
           <div class="col-sm-6 work-page-text ps-sm-5">
             <h2 class="work-page-h2 mb-3">Yoga app</h2>
+            <p class="date">HTML / CSS / JS</p>
             <p class="work-page-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis quia, dignissimos nam ratione veniam quibusdam porro
@@ -112,9 +113,25 @@
             </div>
           </div>
         </div>
-        <div class="row mt-5">
+
+        <div class="row mt-5 block-project">
+          <div class="col-sm-6 d-md-none work-page-div-img">
+            <div class="slides">
+              <img
+                src="/image/weather.png"
+                alt="Yoga project "
+                class="img-fluid rounded work-page-img"
+              />
+              <img
+                src="/image/weather2.png"
+                alt="Yoga project "
+                class="img-fluid rounded work-page-img"
+              />
+            </div>
+          </div>
           <div class="col-sm-6 work-page-text ps-sm-5">
             <h2 class="mb-3 work-page-h2">Weather app</h2>
+            <p class="date">HTML / CSS / JS</p>
             <p class="work-page-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis quia, dignissimos nam ratione veniam quibusdam porro
@@ -131,7 +148,7 @@
               >
             </div>
           </div>
-          <div class="col-sm-6 work-page-div-img">
+          <div class="col-md-6 d-none d-md-block work-page-div-img">
             <div class="slides">
               <img
                 src="/image/weather.png"
@@ -146,7 +163,8 @@
             </div>
           </div>
         </div>
-        <div class="row mt-5">
+
+        <div class="row mt-5 block-project">
           <div class="col-sm-6 work-page-div-img">
             <div class="slides">
               <img
@@ -163,6 +181,7 @@
           </div>
           <div class="col-sm-6 work-page-text ps-sm-5">
             <h2 class="mb-3 work-page-h2">Yogurt app</h2>
+            <p class="date">HTML / CSS / JS</p>
             <p class="work-page-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis quia, dignissimos nam ratione veniam quibusdam porro
@@ -183,7 +202,9 @@
       </div>
     </div>
 
-    <div class="loading text-center">I'm working on new projects....</div>
+    <div class="d-block text-center">
+      <p class="loading">I'm working on new projects...</p>
+    </div>
 
     <footer class="d-flex justify-content-center flex-column text-center">
       <div class="icons flex-md-row">

@@ -293,6 +293,7 @@ footer {
 .imag-companies img {
   width: 150px;
   height: auto;
+  padding-bottom: 10px;
 }
 .scales {
   transition: 1s; /* Время эффекта */
@@ -358,10 +359,61 @@ a i:hover {
   text-decoration: none;
   padding: 10px 30px;
 }
+.icons-anim-1 {
+  animation: myAn 1s ease 0s 1 normal forwards;
+}
+.icons-anim-2 {
+  animation: myAn 2s ease 0s 1 normal forwards;
+}
+.icons-anim-3 {
+  animation: myAn 3s ease 0s 1 normal forwards;
+}
+.icons-anim-4 {
+  animation: myAn 4s ease 0s 1 normal forwards;
+}
+@keyframes myAn {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateX(0);
+  }
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateX(-68px);
+  }
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateX(0);
+  }
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateX(-28px);
+  }
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateX(0);
+  }
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateX(-8px);
+  }
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateX(0);
+  }
+}
 
 /* Work page */
 .work-page {
   margin: 80px auto;
+}
+.block-project {
+  border: 2px solid #4f4f4f;
 }
 .work-page-h2 {
   margin-top: 30px;
@@ -419,7 +471,7 @@ a i:hover {
   .imag-companies img {
     width: 80px;
     height: auto;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
   }
 
   /* Work block */
