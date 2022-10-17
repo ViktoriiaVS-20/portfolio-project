@@ -55,20 +55,28 @@ footer {
   font-family: monospace;
   white-space: nowrap;
   overflow: hidden;
+  opacity: 0;
   border-right: 4px solid black;
-  animation: 2s steps(13, end) 3s border, 2s steps(13) 3s printed-text;
+  animation: 2s steps(13, end) 3s border, 2s steps(13) 3s printed-text forwards;
 }
 .text-typing-n-n {
   width: 9ch;
   font-family: monospace;
   white-space: nowrap;
   overflow: hidden;
+  opacity: 0;
   border-right: 4px solid black;
-  animation: 1.5s step-end infinite 4.7s border, 1.5s steps(9) 5s printed-text;
+  animation: border 1.5s step-end infinite 4.7s,
+    1.5s steps(9) 5s printed-text forwards;
 }
 @keyframes printed-text {
   from {
     width: 0;
+  }
+  0%,
+  50%,
+  100% {
+    opacity: 1;
   }
 }
 @keyframes border {
@@ -227,18 +235,18 @@ footer {
   0% {
     animation-timing-function: ease-in;
     opacity: 1;
-    transform: translateY(-45px);
+    transform: translateY(-20px);
   }
   24% {
     opacity: 1;
   }
   40% {
     animation-timing-function: ease-in;
-    transform: translateY(-24px);
+    transform: translateY(-12px);
   }
   65% {
     animation-timing-function: ease-in;
-    transform: translateY(-12px);
+    transform: translateY(-8px);
   }
   82% {
     animation-timing-function: ease-in;
@@ -644,4 +652,15 @@ a i:hover {
 }
 .resume-btn-div {
   margin-bottom: 80px;
+}
+.div-arrow {
+  text-align: end;
+  margin-right: 50px;
+}
+.fa-arrow-up {
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 8px 10px;
+  text-align: end;
 }
