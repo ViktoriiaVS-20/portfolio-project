@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
       <div class="container">
         <a class="navbar-brand" href="/" title="Homepage">
           <img
@@ -85,7 +85,10 @@
       </div>
     </nav>
 
-    <div class="header-div d-sm-flex flex-row justify-content-center">
+    <div
+      class="header-div d-sm-flex flex-row justify-content-center"
+      id="header-div"
+    >
       <div>
         <h3 class="text-hello" id="hello">Hello, I am</h3>
       </div>
@@ -354,7 +357,9 @@
       >
 
       <div class="div-arrow">
-        <a href="#logo" title="Up"><i class="fa-solid fa-arrow-up"></i></a>
+        <a href="#header-div" title="Up"
+          ><i class="fa-solid fa-arrow-up"></i
+        ></a>
       </div>
     </footer>
 

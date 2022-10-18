@@ -25,7 +25,7 @@ footer {
 .header-div {
   background-color: black;
   color: white;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 .header-div h1 {
   font-size: 52px;
@@ -467,8 +467,13 @@ a i:hover {
 }
 
 @media (max-width: 900px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
   .header-div {
     padding-left: 50px;
+    padding-top: 80px;
   }
   .main-photo {
     display: none;
