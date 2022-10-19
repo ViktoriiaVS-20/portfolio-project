@@ -618,6 +618,7 @@ a i:hover {
 }
 .img-icons {
   width: 100px;
+  height: 68px;
 }
 .rotating {
   -webkit-animation: spin 10s linear infinite;
