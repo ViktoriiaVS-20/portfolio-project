@@ -429,6 +429,7 @@ a i:hover {
 .work-page-p {
   font-size: 18px;
   padding-bottom: 40px;
+  text-align: justify;
 }
 .project-link {
   color: #06c;
